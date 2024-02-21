@@ -6,7 +6,7 @@ make all pairwise matrix and compare them
 4-compare the alleles
 5-turn into excel and make bar plots 
 
-# 1-select hapmap file and select the columns from 1-5 and 2-75
+# 1-select hapmap file and select the columns from 1-5 and 12-75
 	cut -f 1-5,12-75 subset_filtered.hmp.txt > new_subset_filtered.hmp.txt
 
 # 2-remove N
